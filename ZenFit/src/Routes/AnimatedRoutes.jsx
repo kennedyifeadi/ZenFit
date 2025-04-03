@@ -6,6 +6,7 @@ import { Testimonials } from '../Pages/Testimonials';
 import { Contact } from '../Pages/Contact';
 import { About } from '../Pages/About';
 import { PageNotFound } from '../Pages/PageNotFound';
+import { Methods } from '../Pages/Methods';
 
 export const AnimatedRoutes = () => {
     const location = useLocation();
