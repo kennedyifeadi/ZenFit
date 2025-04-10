@@ -7,7 +7,7 @@ import { Newsletter } from "./Layout/Newsletter"
 function App() {
   return (
     <BrowserRouter>
-      <div className="w-full h-full flex flex-col">
+      <div className="w-full h-full flex flex-col bg-[#000000]">
         <Nav/>
         <AnimatedRoutes/>
         <Newsletter/>
