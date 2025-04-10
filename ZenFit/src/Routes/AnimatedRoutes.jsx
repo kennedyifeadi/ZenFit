@@ -7,6 +7,7 @@ import { Contact } from '../Pages/Contact';
 import { About } from '../Pages/About';
 import { PageNotFound } from '../Pages/PageNotFound';
 import { Methods } from '../Pages/Methods';
+import  MainLayout  from '../Layout/MainLayout';
 
 export const AnimatedRoutes = () => {
     const location = useLocation();
@@ -14,12 +15,15 @@ export const AnimatedRoutes = () => {
         <div className="h-full w-full">
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
+                <Route  element={<MainLayout/>}>
                 <Route path="/" element={<Home/>} exact />
                 <Route path="/sponsorship" element={<Methods/>} />
                 <Route path="/updates" element={<Testimonials/>} />
                 <Route path="/resources" element={<Contact/>} />
                 <Route path="/payments" element={<About/>} />
                 <Route path="*" element={<PageNotFound/>} /> 
+                </Route>
+            
             </Routes>
       </AnimatePresence>
       </div>

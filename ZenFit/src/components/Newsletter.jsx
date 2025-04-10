@@ -2,6 +2,7 @@ import React from 'react'
 
 export const Newsletter = () => {
   return (
-    <div>Newsletter</div>
+    <div></div>
   )
 }
+export default Newsletter

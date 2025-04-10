@@ -1,1 +1,7 @@
 @import "tailwindcss";
+body {
+    @apply bg-black ;
+  }
+  .primary {
+    @apply text-[#5286fa];
+  }
