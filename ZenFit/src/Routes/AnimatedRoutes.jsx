@@ -15,10 +15,10 @@ export const AnimatedRoutes = () => {
         <AnimatePresence>
             <Routes location={location} key={location.pathname}>
                 <Route path="/" element={<Home/>} exact />
-                <Route path="/sponsorship" element={<Methods/>} />
-                <Route path="/updates" element={<Testimonials/>} />
-                <Route path="/resources" element={<Contact/>} />
-                <Route path="/payments" element={<About/>} />
+                <Route path="/methods" element={<Methods/>} />
+                <Route path="/testimonials" element={<Testimonials/>} />
+                <Route path="/contact" element={<Contact/>} />
+                <Route path="/about" element={<About/>} />
                 <Route path="*" element={<PageNotFound/>} /> 
             </Routes>
       </AnimatePresence>
