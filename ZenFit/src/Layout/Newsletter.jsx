@@ -4,7 +4,7 @@ import pushUp from "../assets/images/pushUp.webp"
 
 export const Newsletter = () => {
   return (
-    <div className='w-full h-max bg-transparent flex justify-center items-center p-4 md:p-8 relative border border-white'>
+    <div className='w-full h-max bg-transparent flex justify-center items-center p-4 md:p-8 relative'>
       <div className='w-full h-full relative rounded-3xl overflow-hidden '>
         <DynamicBacground image={pushUp}/>
         <div className='w-full h-full flex flex-col gap-8 md:gap-8 p-4 justify-evenly md:p-14 bg-gradient-to-r from-[#5286fa] from-15% to-[#5287fa38] relative'>
