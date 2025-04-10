@@ -90,10 +90,10 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full bg-white h-[2px]"></div>
-      <div className="w-full flex md:flex-row flex-col justify-center items-center md:justify-start h-[10dvh]">
+      <div className="w-full bg-white h-[1px]"></div>
+      <div className="w-full gap-y-2 flex md:flex-row flex-col justify-center items-center md:justify-between h-[10dvh]">
         <p className="text-[13px] md:text-[14px] lg:text-[15px] text-white">© 2025 ZenFit. All rights reserved.</p>
-        <span className="text-[13px] md:text-[14px] lg:text-[15px] text-white cursor-pointer">JFK x MBA</span>
+        <span className="text-[13px] md:text-[14px] lg:text-[15px] text-white cursor-pointer"><a href="">JFK x MBA</a></span>
       </div>
     </div>
   );
