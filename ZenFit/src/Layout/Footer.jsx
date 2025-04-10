@@ -7,7 +7,7 @@ import ZenFitLogo from "../assets/images/logo.webp";
 
 export const Footer = () => {
   return (
-    <div className="w-full fontFam px-4 h-max bg-transparent flex flex-col pt-[100px] pb-[50px] gap-4">
+    <div className="w-full px-4 h-max bg-transparent flex flex-col pt-[100px] pb-[20px] gap-4">
       <div className="flex flex-col lg:flex-row w-full h-max">
         <div className="flex w-full lg:w-[40%] h-[40dvh] flex-col gap-4">
           <img src={ZenFitLogo} alt="" className="h-[30%] w-[50%] object-contain"  style={{objectPosition:"-0px"}}/>
@@ -34,7 +34,7 @@ export const Footer = () => {
         </div>
         <div className="flex w-full lg:w-[60%] h-[30dvh]">
           <div className="flex-1 h-full flex-col gap-4 flex">
-            <h1 className="text-[18px] md:text-[20px] lg:text-[22px] text-white font-medium">Pages</h1>
+            <h1 className="text-[18px] fontFam md:text-[20px] lg:text-[22px] text-white font-medium">Pages</h1>
             <div className="flex flex-col gap-2">
               <NavLink
                 to="/"
@@ -59,7 +59,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex-1 h-full flex-col gap-4 flex">
-            <h1 className="text-[18px] md:text-[20px] lg:text-[22px] text-white font-medium">Follow us</h1>
+            <h1 className="text-[18px] fontFam md:text-[20px] lg:text-[22px] text-white font-medium">Follow us</h1>
             <div className="flex flex-col gap-2">
               <a
                 href=""
@@ -72,7 +72,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="flex-1 h-full flex-col gap-4 flex">
-            <h1 className="text-[18px] md:text-[20px] lg:text-[22px] text-white font-medium">Legal</h1>
+            <h1 className="text-[18px] fontFam md:text-[20px] lg:text-[22px] text-white font-medium">Legal</h1>
             <div className="flex flex-col gap-2">
               <NavLink
                 to=""
@@ -90,7 +90,11 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="w-full flex md:flex-row flex-col justify-center items-center md:justify-start h-[20dvh]"></div>
+      <div className="w-full bg-white h-[2px]"></div>
+      <div className="w-full flex md:flex-row flex-col justify-center items-center md:justify-start h-[10dvh]">
+        <p className="text-[13px] md:text-[14px] lg:text-[15px] text-white">© 2025 ZenFit. All rights reserved.</p>
+        <span className="text-[13px] md:text-[14px] lg:text-[15px] text-white cursor-pointer">JFK x MBA</span>
+      </div>
     </div>
   );
 };
