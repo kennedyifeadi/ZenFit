@@ -7,7 +7,7 @@ import ZenFitLogo from "../assets/images/logo.webp";
 
 export const Footer = () => {
   return (
-    <div className="w-full px-4 h-max bg-transparent flex flex-col pt-[100px] pb-[20px] gap-4">
+    <div className="w-full px-4 h-max bg-transparent flex flex-col pt-[100px] gap-4">
       <div className="flex flex-col lg:flex-row w-full h-max">
         <div className="flex w-full lg:w-[40%] h-[40dvh] flex-col gap-4">
           <img src={ZenFitLogo} alt="" className="h-[30%] w-[50%] object-contain"  style={{objectPosition:"-0px"}}/>
