@@ -1,7 +1,8 @@
 import React from 'react'
+import ContactHero from '../Components/Ui/ContactHero'
 
 export const Contact = () => {
   return (
-    <div>Contact</div>
+    <div><ContactHero/></div>
   )
 }
